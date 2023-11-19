@@ -38,7 +38,7 @@ export default async function Home() {
         <div className='p-4 pb-0 flex flex-row '>
           <Image src={`${data.image}`} alt="" width={100} height={100}  className='w-28 rounded-full relative -top-12' />
           <div className='px-4'>
-            <h1 className='font-bold text-lg'>{data.name}</h1>
+            <h1 className='font-bold text-lg'>{data.name} |||||</h1>
             <div className='flex mt-2'>
 
               <div className=' text-gray'>
@@ -125,13 +125,7 @@ export default async function Home() {
           </div>
         </div>
         <div className='border-b-2 border-gray w-full'></div>
-        </div>)}
-
-        
-
-
-
-        
+        </div>)}        
         </div>
       </div>
       
